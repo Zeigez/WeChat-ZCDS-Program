@@ -1,0 +1,190 @@
+/**index.wxss**/
+
+.swiper {
+  border-color: brown;
+  height: 200rpx;
+}
+
+swiper {
+  border-color: brown;
+  height: 200rpx;
+}
+
+.swiper-item {
+  height: 200rpx;
+
+  border-color: brown;
+}
+
+.demo-text-1 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #1AAD19;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+
+.demo-text-1:before {
+  content: 'A';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.demo-text-2 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #2782D7;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+
+.demo-text-2:before {
+  content: 'B';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.demo-text-3 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1F1F1;
+  color: #353535;
+  font-size: 36rpx;
+}
+
+.demo-text-3:before {
+  content: 'C';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 以下是任务列表样式 */
+.ZhuXian,.ZhiXian,.FuBen,.MeiR{
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc;
+
+  
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.ZhuXian-item,.ZhiXian-item,.FuBen-item,.MeiR-item {
+  display: flex;
+  flex-direction: row;
+  /* padding: 10rpx 30rpx; */
+  margin: 0 10rpx;
+}
+
+.ZhuXian {
+  background-color: #fa921c;
+}
+
+.ZhuXian-item {
+  background-color:rgba(250, 146, 28,0.1);
+}
+
+.ZhiXian {
+  background-color: #ffbd1c;
+}
+
+.ZhiXian-item {
+  background-color:rgba(255, 189, 28,0.1);
+}
+
+.FuBen {
+  background-color: #209fbf;
+}
+
+.FuBen-item {
+  background-color:rgba(32, 159, 191,0.1);
+}
+
+.MeiR {
+  background-color: #99d0e9;
+}
+
+.MeiR-item {
+  background-color:rgba(153, 208, 233,0.1);
+}
+
+.icon {
+  top: 50%;
+  margin-top: -5rpx;
+}
+
+/* 以上是任务列表样式 */
+
+
+
+.box {
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx 30rpx;
+  /* background-color: #fcd53c; */
+  margin: 0 20rpx;
+}
+
+/* .box-image {
+  margin: auto 40rpx auto 10rpx;
+  height: 150rpx;
+  width: 150rpx;
+   
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 200rpx;
+  background:  #69b605;
+} */
+
+.box-text {
+  flex: 1;
+}
+
+.list-bd {
+  height: 0;
+  overflow: hidden;
+}
+
+.list-bd-show {
+  border-radius: 0 0 30rpx 30rpx;
+  height: auto;
+}
+
+button::after {
+  border: none;
+}
+
+.AddButton {
+  background-color: #043048;
+  height: 110rpx;
+  width: 110rpx;
+  margin: 40rpx auto 0;
+  border-radius: 60rpx;
+  line-height: normal;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 
+  border: 5rpx solid #ffffff; */
+  /* border-radius: 500px; */
+  box-shadow: 0px 5px 2px #cccccc;
+
+}

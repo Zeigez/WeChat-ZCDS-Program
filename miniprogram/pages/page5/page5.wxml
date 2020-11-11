@@ -1,0 +1,88 @@
+<!--pages/page5/page5.wxml-->
+<!--pages/mine/mine.wxml-->
+<view class="userinfo">
+<button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+      size="default">
+    </button>
+    <view class="userinfo-nickname-wrapper">
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
+     
+    </view>
+  </view>
+   <view class="user-palace">
+  <view class="user-palace-grid">
+    <view class="user-palace-grid-icon">
+      <image src='https://www.et.ynu.edu.cn/appdd/uploads/20181060270/8/%E7%AC%91%E8%84%B8.png'></image>
+      +12
+    </view>
+    <view class="user-palace-grid-text">最近加分</view>
+  </view>
+  <view class="user-palace-grid">
+    <view class="user-palace-grid-icon">
+      <image src='https://www.et.ynu.edu.cn/appdd/uploads/20181060270/8/1.png'></image>
+     -21
+    </view>
+    <view class="user-palace-grid-text">我的扣分</view>
+  </view>
+  <view class="user-palace-grid">
+    <view class="user-palace-grid-icon">
+      <image src='https://www.et.ynu.edu.cn/appdd/uploads/20181060270/8/2.png'></image>
+      143
+    </view>
+    <view class="user-palace-grid-text">我的积分</view>
+  </view>
+</view> 
+<view class="viewHeight"></view>
+
+<view class="user-icon-box">
+  <view class="user-flex-box" bindtap="getPoint">
+    <view class="user-flex-box-hd">
+      <image src='https://www.et.ynu.edu.cn/appdd/uploads/20181060270/8/%E7%A7%AF%E5%88%86.png'></image>
+    </view>
+    <view class="user-flex-box-bd">积分明细</view>
+    <view class="user-flex-box-ft">
+      <view class="text"></view>
+      <view class="arrow"></view>
+    </view>
+  </view>
+  <view class="b-line"></view>
+  <view class="user-flex-box" bindtap="getBankCard">
+    <view class="user-flex-box-hd">
+      <image src='https://www.et.ynu.edu.cn/appdd/uploads/20181060270/8/%E6%8E%92%E5%90%8D.png'></image>
+    </view>
+    <view class="user-flex-box-bd">我的排名</view>
+    <view class="user-flex-box-ft">
+      <view class="text"></view>
+      <view class="arrow"></view>
+    </view>
+  </view>
+  <view class="b-line"></view>
+  <view class="user-flex-box" bindtap="getBusinessInfo">
+    <view class="user-flex-box-hd">
+      <image src='https://www.et.ynu.edu.cn/appdd/uploads/20181060270/8/%E5%B8%AE%E5%8A%A9.png'></image>
+    </view>
+    <view class="user-flex-box-bd">帮助中心</view>
+    <view class="user-flex-box-ft">
+      <view class="text"></view>
+      <view class="arrow"></view>
+    </view>
+  </view>
+  <view class="b-line"></view>
+  <view class="user-flex-box" bindtap="getUserInfo">
+    <view class="user-flex-box-hd">
+      <image src='https://www.et.ynu.edu.cn/appdd/uploads/20181060270/8/%E5%85%B3%E4%BA%8E.png'></image>
+    </view>
+    <view class="user-flex-box-bd">关于</view>
+    <view class="user-flex-box-ft">
+      <view class="text"></view>
+      <view class="arrow"></view>
+    </view>
+  </view>
+  <view class="b-line"></view>
+ 
+  <view class="viewFooterHeight"></view>
+</view>

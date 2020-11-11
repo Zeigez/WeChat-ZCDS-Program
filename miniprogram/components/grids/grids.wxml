@@ -1,0 +1,26 @@
+<view class="weui-grids {{extClass}}">
+  <view class="title">每日推荐</view>
+  <block wx:for="{{innerGrids}}" wx:key="index">
+    <navigator
+      class="weui-grid navigator"
+      url="{{item.url}}"
+      target="{{item.target}}"
+      open-type="{{item.openType}}"
+      app-id="{{item.appId}}"
+      path="{{item.path}}"
+      extra-data="{{item.extraData}}"
+      version="{{item.version}}"
+      hover-class="{{item.hoverClass}}"
+      hover-stop-propagation="{{item.hoverStopPropagation}}"
+      hover-start-time="{{item.hoverStartTime}}"
+      hover-stay-time="{{item.hoverStayTime}}"
+    >
+    <view class="div">
+      <view class="image-box">
+        <image class="image" mode="aspectFill" src="{{item.imgUrl}}"></image>
+      </view>
+      <view class="weui-grid__label lable">🎖️x{{item.text}}</view>
+    </view>
+    </navigator>
+  </block>
+</view>

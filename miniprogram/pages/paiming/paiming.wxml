@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="page-body">
+    <view class="section">
+  <view class="section__title">学年选择</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <!-- <view class="picker"> -->
+      <navigator url="" class="weui-cell weui-cell_example weui-cell_access {{choose.class}}"					 hover-class="weui-cell_active">
+      <view>
+      {{choose.id}}
+    </view>
+    <view class="weui-cell__hd" style="opacity: 1">
+							<image src="https://www.et.ynu.edu.cn/appdd/uploads/20181060270/8/%E6%97%A5%E5%8E%86.png" style="width: 20px;height: 20px;margin-right: 16px;vertical-align:middle;" />
+						</view>
+  </navigator>
+    <view class="container">
+    
+     <view>{{array[index]}}</view> 
+  </view>
+  </picker>
+</view> 
+  
+	<view class="weui-panel__hd">排行榜</view>
+  
+  <view wx:for="{{studentdata}}"wx:for-item="info" wx:key="info">
+    <!-- <scroll-view scroll-y="true" style="height: 100rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}"> -->
+    	<navigator url="" class="weui-cell weui-cell_example weui-cell_access {{info.class}}"					 hover-class="weui-cell_active">
+        <view class="weui-cell__hd" style="opacity: 1">
+							<image src="{{info.imgsrc}}" style="width: 20px;height: 20px;margin-right: 16px;vertical-align:middle;" />
+						</view>
+        <view> {{info.name }} </view>
+       
+          </navigator>
+          <!-- </scroll-view> -->
+
+</view>
+  </view>
+    </view>
+

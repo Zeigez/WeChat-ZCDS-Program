@@ -1,0 +1,113 @@
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  height: 300rpx;
+}
+.sheng{
+  background-color: #fa921c;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+  
+}
+.fan{
+  background-color: #93d83a;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}
+.zhao{
+  background-color: #18a7d3;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}
+.sha{
+  background-color: #c3c6c7;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}
+.sun{
+  background-color:#c3c6c7;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}
+.tang{
+  background-color:#c3c6c7;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}
+.long{
+  background-color:#c3c6c7;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}
+.yang{
+  background-color:#c3c6c7;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}
+.guo{
+  background-color:#c3c6c7;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}
+.ling{
+  background-color:#c3c6c7;
+  height: 20px;
+  padding: 20rpx 40rpx;
+  border-radius: 30rpx;
+  color: #ffff;
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}
+.ai{
+  background-color:#c56913;
+  height: 30px;
+  padding: 30rpx 30rpx;
+  border-radius: 10rpx;
+  color: rgb(255, 255, 255);
+  margin: 20rpx 0 0;
+  box-shadow: 0px 5px 2px #cccccc; 
+}

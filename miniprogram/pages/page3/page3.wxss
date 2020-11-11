@@ -1,0 +1,90 @@
+@import '../common.wxss';
+
+page {
+  background-color: #FFFFFF;
+  height: 99%;
+}
+
+.weui-tabs-bar__wrp {
+  border-bottom: 1px solid #eee;
+  margin-top: 10px;
+}
+
+.weui-tabs-swiper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.tab-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+}
+
+.weui-tabs{
+  height: 100%;
+}
+
+.weui-tabs-bar__title {
+  
+  margin: 0 50rpx;
+}
+
+.tab-bar-title__selected {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.weui-tabs-bar__content{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+}
+
+.form-item{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 10rpx;
+  
+  border-radius: 30rpx;
+  background-color:rgba(250, 146, 28,0.1);
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+}
+
+.list-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  max-width: 350rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /*文本不换行，这样超出一行的部分被截取，显示...*/
+}
+
+.checkbox {
+  right: 0px;
+  margin: 0 0 0 auto;
+}
+
+.btn-area {
+  display: flex;
+  
+  flex-direction: column;
+  
+  align-items: center;
+
+}

@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/page4/page4",
+    "pages/index/index",
+    "pages/jisuan/jisuan",
+    "pages/page3/page3",
+    "pages/page5/page5",
+    "pages/logs/logs",
+    "pages/splash/splash",
+    "components/tabs/index",
+    "pages/paiming/paiming",
+    "pages/xiangqing/xiangqing"
+  ],
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#e6e6e6",
+    "navigationBarTitleText": "综测大师",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#6c6c6c",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#e6e6e6",
+    "list": [
+      {
+        "pagePath": "pages/page4/page4",
+        "iconPath": "image/首页.png",
+        "selectedIconPath": "image/首页1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/提升.png",
+        "selectedIconPath": "image/提升1.png",
+        "text": "提升"
+      },
+      {
+        "pagePath": "pages/jisuan/jisuan",
+        "iconPath": "image/计算.png",
+        "selectedIconPath": "image/计算1.png",
+        "text": "计算"
+      },
+      {
+        "pagePath": "pages/page5/page5",
+        "iconPath": "image/我.png",
+        "selectedIconPath": "image/我1.png",
+        "text": "我"
+      }
+    ]
+  },
+  "useExtendedLib": {
+    "weui": true
+  },
+  "usingComponents": {
+    "mp-icon": "/components/icon/icon"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

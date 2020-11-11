@@ -1,0 +1,14 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="hd-box">
+    <view class="page__hd hd">
+        <view class="page__title">首页</view>
+        <view class="page__desc">🎖️x1 相当于综合成绩测评总分1分！！</view>
+		</view>
+		<view class="CaiDan" bindtap="CaiDan">
+            <mp-icon icon="more" color="white" size="25"></mp-icon>
+        </view>
+	</view>
+    <view class="page__bd">
+        <mp-grids grids="{{grids}}"></mp-grids>
+    </view>
+</view>

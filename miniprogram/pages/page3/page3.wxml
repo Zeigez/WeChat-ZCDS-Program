@@ -1,0 +1,60 @@
+<form class="form" catchsubmit="formSubmit" catchreset="formReset">
+ 
+  <mp-tabs tabs="{{tabs}}" activeTab="{{activeTab}}" swiperClass="weui-tabs-swiper" bindtabclick="onTabCLick"
+    bindchange="onChange" activeClass="tab-bar-title__selected">
+    <!--tab循环-->
+    <block wx:for="{{tabs}}" wx:key="title">
+
+      <view class="tab-content" slot="tab-content-{{index}}">
+        <view class="form">
+          <!--表单父元素-->
+          <checkbox-group name="{{item.id}}">
+            <!--列表循环-->
+            <view wx:for="{{item.pages}}" wx:for-item="page" wx:key="page">
+              <view class="form-item">
+                <view class="weui-media-box weui-media-box_appmsg">
+
+                  <view class="weui-media-box__hd weui-media-box__hd_in-appmsg" hover-class="weui-cell_active"
+                    hover-class="weui-cell_active" 
+                    data-title="{{page.title}}" 
+                    data-text="{{page.text}}" 
+                    data-image="{{page.image}}"
+                    bindtap="gotoXiangqing"
+                    >
+                    <image class="weui-media-box__thumb" src="{{page.iconRes}}" />
+                  </view>
+
+                  <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="weui-media-box__title list-box">
+                      <view class="title">{{page.title}}</view>
+                      <view class=" checkbox">
+                        <text>🎖️x{{page.score}}</text>
+                        <checkbox value="{{page._id}}" /><!-- 多选框表单 -->
+                      </view>
+                    </view>
+                    <view 
+                    class="weui-media-box__desc" 
+                    hover-class="weui-cell_active" 
+                    data-title="{{page.title}}" 
+                    data-text="{{page.text}}" 
+                    data-image="{{page.image}}"
+                    bindtap="gotoXiangqing"
+                    >{{page.text}}</view>
+                  </view>
+
+                </view>
+              </view>
+            </view>
+          </checkbox-group>
+
+          <view class="btn-area">
+            <button style="margin: 30rpx 0" type="primary" formType="submit">添加</button>
+            <button style="margin: 30rpx 0" formType="reset">重选</button>
+          </view>
+        </view>
+      </view>
+
+    </block>
+  </mp-tabs>
+
+</form>
